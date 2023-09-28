@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Set the mode of the file "hello"
+chmod u=rwx,go=rx,u+w hello
