@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Define the source directory and destination directory
+source_dir="./"
+destination_dir="/tmp/u"
+
+# Ensure that the destination directory exists
+mkdir -p "$destination_dir"
+
+# Move files beginning with an uppercase letter to the destination directory
+find "$source_dir" -maxdepth 1 -type f -name '[A-Z]*' -exec mv {} "$destination_dir" \;
