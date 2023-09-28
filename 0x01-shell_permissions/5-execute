@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Add execute permission to the owner of the file "hello"
+chmod +x hello
