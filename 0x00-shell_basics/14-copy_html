@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Define the source and destination directories
+source_dir="./"
+destination_dir="../"
+
+# Copy HTML files from the current directory to the parent directory
+rsync -av --update --include="*.html" --exclude="*" "$source_dir" "$destination_dir"
