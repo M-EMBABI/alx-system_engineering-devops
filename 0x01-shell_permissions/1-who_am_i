@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Get and print the effective username
+whoami
