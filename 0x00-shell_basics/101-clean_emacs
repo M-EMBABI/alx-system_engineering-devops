@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Delete all files ending with "~" in the current directory
+rm -f *~
