@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Remove all permissions for the owner and group owner
+chmod u=,g= hello
+
+# Set all permissions for other users
+chmod o+rwx hello
