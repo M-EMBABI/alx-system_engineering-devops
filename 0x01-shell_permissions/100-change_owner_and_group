@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Use the 'chown' command to change the owner to 'vincent' and the group owner to 'staff'
+chown -R vincent:staff ./
