@@ -1,9 +1,4 @@
-julien@ubuntu:/tmp$ pwd
-/tmp
-julien@ubuntu:/tmp$ cd /var
-julien@ubuntu:/var$ pwd
-/var
-julien@ubuntu:/var$ source ./10-back
-/tmp
-julien@ubuntu:/tmp$ pwd
-/tmp
+#!/bin/bash
+
+# Use 'cd' with the '-' option to change to the previous working directory
+cd -
