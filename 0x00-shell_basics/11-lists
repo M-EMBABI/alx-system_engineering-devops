@@ -1,17 +1,17 @@
 #!/bin/bash
 
 # List files in the current directory
-echo "Files in the current directory:"
-ls -lA
+echo "Current Directory:"
+ls -la
 
-# List files in the parent directory
-echo "Files in the parent directory:"
+# List files in the parent directory of the working directory
+echo -e "\nParent Directory of Working Directory:"
 cd ..
-ls -lA
+ls -la
 
-# Go back to the original directory
+# Change back to the original working directory
 cd -
 
 # List files in the /boot directory
-echo "Files in the /boot directory:"
-ls -lA /boot
+echo -e "\n/boot Directory:"
+ls -la /boot
