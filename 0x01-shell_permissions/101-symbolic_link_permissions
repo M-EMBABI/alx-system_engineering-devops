@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Use the 'chown' command to change the owner and group owner of the symbolic link
+chown vincent:staff _hello
