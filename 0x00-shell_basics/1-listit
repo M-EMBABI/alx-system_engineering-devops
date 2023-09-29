@@ -1,4 +1,4 @@
-$ ./1-listit
-Applications    Documents   Dropbox Movies Pictures
-Desktop Downloads   Library Music Public
-$
+#!/bin/bash
+
+# Use the 'ls' command to list the contents of the current directory
+ls
