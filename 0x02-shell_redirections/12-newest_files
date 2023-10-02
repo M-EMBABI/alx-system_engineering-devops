@@ -1,0 +1,1 @@
+ls -lt | awk '{print $9}' | head -n 10
