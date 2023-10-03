@@ -1,0 +1,8 @@
+if [ -z "$BREATH" ] || [ -z "$LOVE" ]; then
+  echo "BREATH and/or LOVE environment variables are not set."
+  exit 1
+fi
+
+# Perform the exponentiation and print the result
+result=$((BREATH ** LOVE))
+echo "$result"
