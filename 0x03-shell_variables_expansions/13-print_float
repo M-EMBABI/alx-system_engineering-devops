@@ -1,0 +1,18 @@
+if [ -z "$NUM" ]; then
+  echo "The NUM environment variable is not set."
+  exit 1
+fi
+
+printf "%.2f\n" "$NUM"
+
+$ export NUM=0
+$ ./13-print_float.sh
+0.00
+
+$ export NUM=98
+$ ./13-print_float.sh
+98.00
+
+$ export NUM=3.14159265359
+$ ./13-print_float.sh
+3.14
