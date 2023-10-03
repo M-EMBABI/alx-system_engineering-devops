@@ -1,1 +1,3 @@
 BEST="School"
+export BEST
+echo "The value of BEST is: $BEST"
