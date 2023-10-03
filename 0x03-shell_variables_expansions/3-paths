@@ -1,0 +1,3 @@
+IFS=':' read -ra path_array <<< "$PATH"
+num_directories="${#path_array[@]}"
+echo "$num_directories"
