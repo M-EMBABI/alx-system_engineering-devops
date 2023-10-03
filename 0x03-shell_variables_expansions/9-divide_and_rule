@@ -1,0 +1,8 @@
+if [ -z "$POWER" ] || [ -z "$DIVIDE" ]; then
+  echo "POWER and/or DIVIDE environment variables are not set."
+  exit 1
+fi
+
+# Perform the division and print the result
+result=$((POWER / DIVIDE))
+echo "$result"
