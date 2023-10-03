@@ -1,0 +1,8 @@
+if [ -z "$BINARY" ]; then
+  echo "The BINARY environment variable is not set."
+  exit 1
+fi
+
+# Use 'bc' to perform the conversion and print the result
+decimal=$(echo "ibase=2; $BINARY" | bc)
+echo "$decimal"
