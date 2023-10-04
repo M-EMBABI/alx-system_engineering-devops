@@ -1,1 +1,2 @@
-awk -F ':' '{print $1 ":" $6}' /etc/passwd | sort
+#!/bin/bash
+cat /etc/passwd | sort | cut -d':' -f1,6 
