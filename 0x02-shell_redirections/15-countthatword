@@ -1,1 +1,2 @@
-grep -c "bin" /etc/passwd
+#!/bin/bash
+mv [[:upper:]]* /tmp/u
