@@ -1,10 +1,2 @@
-if [ -z "$TRUEKNOWLEDGE" ]; then
-  echo "The TRUEKNOWLEDGE environment variable is not set."
-  exit 1
-fi
-
-result=$((128 + TRUEKNOWLEDGE))
-echo "$result"
-
-$ export TRUEKNOWLEDGE=1209
-$ ./8-true_knowledge.sh
+#!/bin/bash
+echo $((128 + $TRUEKNOWLEDGE))
