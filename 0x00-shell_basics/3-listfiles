@@ -1,4 +1,2 @@
 #!/bin/bash
-
-# Use 'ls' with the '-l' option to display the directory contents in long format
 ls -l
