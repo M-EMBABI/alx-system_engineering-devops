@@ -1,1 +1,1 @@
-echo "$cwd"
+pwd
