@@ -1,1 +1,2 @@
-grep "root" /etc/passwd
+#!/bin/bash
+cp -u *.html ..
