@@ -1,11 +1,2 @@
-for first_letter in {a..z}; do
-  for second_letter in {a..z}; do
-    # Check if the combination is not 'oo'
-    if [ "$first_letter$second_letter" != "oo" ]; then
-      echo "$first_letter$second_letter"
-    fi
-  done
-done
-
-$ ./12-combinations.sh | wc -l
-$ ./12-combinations.sh | tail -n +303 | head -n 10
+#!/bin/bash
+printf "%s\n" {a..z}{a..z} | grep -v [o][o] | sort
