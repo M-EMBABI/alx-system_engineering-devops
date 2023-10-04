@@ -1,1 +1,2 @@
-ls -lt | awk '{print $9}' | head -n 10
+#!/bin/bash
+file /tmp/iamafile
