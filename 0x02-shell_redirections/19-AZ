@@ -1,1 +1,2 @@
-sed 's/A/Z/g; s/c/e/g'
+#!/bin/bash
+tr A,c Z,e
