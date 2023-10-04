@@ -1,3 +1,2 @@
-for var in $(env | cut -d'=' -f1); do
-    echo "$var=${!var}"
-done
+#!/bin/bash
+printenv
