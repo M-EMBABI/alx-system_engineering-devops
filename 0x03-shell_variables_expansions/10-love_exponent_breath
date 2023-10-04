@@ -1,4 +1,2 @@
 #!/bin/bash
-BREATH=4
-LOVE=2
 echo $(($BREATH**$LOVE))
