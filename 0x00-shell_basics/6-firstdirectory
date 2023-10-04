@@ -1,4 +1,2 @@
 #!/bin/bash
-
-# Create the directory in /tmp/
 mkdir /tmp/my_first_directory
